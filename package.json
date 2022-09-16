@@ -1,0 +1,26 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "aprendendo node com typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Anthony Marques",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.7.18",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
